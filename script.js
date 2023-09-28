@@ -5,11 +5,12 @@ function getRandomInt() {
   function rollDice() {
     const dice1 = document.getElementById("1");
     const dice2 = document.getElementById("2");
+    const total = document.getElementById("3");
     var num1 = getRandomInt();
     var num2 = getRandomInt();
     dice1.innerHTML = num1;
     dice2.innerHTML = num2;
-
+    total.innerHTML = num1 +num2;
 
 }
 

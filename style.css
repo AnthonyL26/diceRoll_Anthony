@@ -12,3 +12,10 @@ button {
     padding: 3px 10px;
     cursor: pointer;
 }
+
+#dice1 {
+    font-size: 50px;
+}
+#dice2 {
+    font-size: 50px;
+}

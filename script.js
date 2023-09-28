@@ -3,9 +3,9 @@ function getRandomInt() {
   }
 
   function rollDice() {
-    const dice1 = document.getElementById("1");
-    const dice2 = document.getElementById("2");
-    const total = document.getElementById("3");
+    const dice1 = document.getElementById("dice1");
+    const dice2 = document.getElementById("dice2");
+    const total = document.getElementById("total");
     var num1 = getRandomInt();
     var num2 = getRandomInt();
     dice1.innerHTML = num1;
